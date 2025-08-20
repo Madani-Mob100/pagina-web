@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Comunidad Educativa</h1>
+        <h2 class="titulo">🌍 MONUB – Modelo de Naciones Unidas de la Universidad de Belgrano 🌍</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El colegio participa en el MONUB, un programa educativo que simula el funcionamiento de la Organización de las Naciones Unidas. Estudiantes de distintos cursos asumen el rol de diplomáticos, representan países, debaten problemáticas globales y elaboran resoluciones consensuadas. Esta experiencia fomenta el pensamiento crítico, el trabajo en equipo, la oratoria y el conocimiento de la geopolítica mundial.</p></td>
+          <td><img src="imagenes\MONUB.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">♟️ Torneo de ajedrez ♟️</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\torneoDeAjedrez.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>El torneo de ajedrez institucional es una competencia anual donde estudiantes de todos los niveles pueden demostrar sus habilidades estratégicas. Esta actividad promueve la concentración, la paciencia, el análisis y la toma de decisiones. Además, se generan espacios de encuentro y camaradería entre estudiantes con intereses comunes.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">🏅 Olimpiadas 🏅</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El colegio acompaña a sus estudiantes en la preparación y participación de olimpiadas académicas, como la Olimpiada de Matemática y la de Tecnología de la Representación. Estas competencias permiten profundizar conocimientos, desarrollar el pensamiento lógico y gráfico, y desafiar las propias capacidades en un entorno de excelencia educativa y sana competencia.</p></td>
+          <td><img src="imagenes\olimpiadas.webp" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>    
+  <?php include 'footer.php'; ?>
+</body>
+</html>

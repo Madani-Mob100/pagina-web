@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Infraestructura</h1>
+    <h2 class="titulo">🧪 Laboratorios y talleres por especialidad 🧪</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\laboratorioYTalleres.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>Cada especialidad cuenta con laboratorios y talleres específicos, equipados con tecnología y materiales adecuados para las prácticas técnicas. Durante los primeros años, los estudiantes rotan por diferentes espacios para conocer las bases de cada orientación y elegir su especialidad con mayor conocimiento y experiencia.</p></td>
+        </tr>
+      </table>
+        <h2 class="titulo">⚽ Deportes y canchas ⚽</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El colegio dispone de amplios espacios deportivos, incluyendo canchas para fútbol, vóley y básquet. Las actividades físicas forman parte del programa curricular y también se ofrecen propuestas extracurriculares que fomentan el trabajo en equipo, la vida saludable y el desarrollo integral de los estudiantes.</p></td>
+          <td><img src="imagenes\DeportesYCanchas.jpeg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>
+  <?php include 'footer.php'; ?>
+</body>
+</html>

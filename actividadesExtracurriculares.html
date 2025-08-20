@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+  <h1>Actividades Extracurriculares</h1>
+        <h2 class="titulo">🎲 Club de juegos de rol 🎲</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El colegio participa en el MONUB, un programa educativo que simula el funcionamiento de la Organización de las Naciones Unidas. Estudiantes de distintos cursos asumen el rol de diplomáticos, representan países, debaten problemáticas globales y elaboran resoluciones consensuadas. Esta experiencia fomenta el pensamiento crítico, el trabajo en equipo, la oratoria y el conocimiento de la geopolítica mundial.</p></td>
+          <td><img src="imagenes\clubDeJuegosDeRol.webp" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo" >📚 Club de literatura y lectura 📚</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\clubDeLiteraturaYLectura.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>El torneo de ajedrez institucional es una competencia anual donde estudiantes de todos los niveles pueden demostrar sus habilidades estratégicas. Esta actividad promueve la concentración, la paciencia, el análisis y la toma de decisiones. Además, se generan espacios de encuentro y camaradería entre estudiantes con intereses comunes.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">♟️ Club de ajedrez♟️</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Destinado a estudiantes que buscan ejercitar la mente y mejorar su capacidad de análisis. El grupo practica regularmente, organiza torneos internos y promueve el ajedrez como una herramienta para el desarrollo de la concentración y la toma de decisiones.</p></td>
+          <td><img src="imagenes\clubDeAjedrez.webp" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      </table> 
+      <h2 class="titulo">🏅 Olimpiadas 🏅</h2>
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>
+  <?php include 'footer.php'; ?>
+</body>
+</html>

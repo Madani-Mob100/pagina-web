@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Políticas Antibullying</h1>
+        <h2 class="titulo"> Compromiso institucional</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El colegio asume un compromiso firme con la convivencia respetuosa, la inclusión y la construcción de vínculos saludables. La comunidad educativa promueve activamente un entorno libre de violencia, discriminación y acoso en todas sus formas.</p></td>
+          <td><img src="imagenes\compromisoInstitucional.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo" >Detección y prevención</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\deteccionYPrevencion.png" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>El colegio cuenta con estrategias para la detección temprana de situaciones de acoso. A través de la observación en el aula, el diálogo constante y el trabajo conjunto con las familias, se busca prevenir conflictos antes de que escalen. Se promueven actividades que fortalecen la empatía, la comunicación y la resolución pacífica de problemas.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo" ">Protocolo de actuación</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Ante una situación de bullying, se activa un protocolo institucional que incluye, entrevistas con los involucrados,intervención del equipo de orientación, comunicación con las familias, y seguimiento del caso con acciones restaurativas.</p></td>
+          <td><img src="imagenes\protocoloDeActuacion.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      </table> 
+      <h2 class="titulo" >Participación y formación</h2>
+      <table class="contenido">
+        <tr>
+        <td><img src="imagenes\participacionYFormacion.jpg" style="width: 100%;"/></td>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Tanto estudiantes como docentes y familias reciben talleres, charlas y recursos sobre convivencia, respeto, autocuidado y acompañamiento emocional. Se fomenta el rol activo de los y las estudiantes como promotores de una cultura escolar libre de violencia.</p></td>
+        </tr>
+      </table>
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>    
+  <?php include 'footer.php'; ?>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Integración</h1>
+        <h2 class="titulo">🧰 División de talleres 🧰</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Los estudiantes acceden a una formación técnica que incluye el uso de talleres y laboratorios desde los primeros años. Esta integración permite adquirir conocimientos básicos de manejo de herramientas, normas de seguridad y trabajo en entornos prácticos, fomentando una educación técnica sólida desde el inicio.</p></td>
+          <td><img src="imagenes\divisionDeTalleres.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">📅 Semana única de estudiantes de primero 📅</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\semanaUnicaDeEstudiantesDePrimero.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>Durante su primera semana, los estudiantes de primer año participan de una jornada de bienvenida que incluye recorridos guiados por las instalaciones, actividades de integración y una charla con la coordinadora de ingresantes. Este acompañamiento facilita la adaptación al nuevo entorno educativo.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">🎉 Actividades recreativas 🎉</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>A lo largo del año se organizan propuestas recreativas pensadas para fortalecer el vínculo entre compañeros, promover la participación y brindar espacios de distensión dentro de la vida escolar. Estas actividades incluyen jornadas temáticas, competencias sanas y celebraciones especiales</p></td>
+          <td><img src="imagenes\actividadesRecreativas.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>
+  <?php include 'footer.php'; ?>
+</body>
+</html>

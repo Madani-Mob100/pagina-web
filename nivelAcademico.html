@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Nivel Academico</h1>
+        <h2 class="titulo">🎓 Programa Educativo 🎓</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>El programa educativo del Instituto Huergo ha sido cuidadosamente diseñado por licenciados en Psicología, Sociología y Ciencias de la Educación. El enfoque se centra en una formación técnica sólida, exigente pero accesible, que busca desarrollar en los estudiantes habilidades críticas, técnicas y humanas para que puedan afrontar con éxito los desafíos universitarios y laborales.</p></td>
+          <td><img src="imagenes\ProgramaEducativo.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">👨‍🏫 Nuestros Docentes 👨‍🏫 </h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\NuestrosDocentes.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>Contamos con un equipo docente altamente calificado, integrado por expertos reconocidos en el mundo técnico. Cada uno de nuestros profesores es un referente en su área, con formación universitaria y experiencia laboral en entornos reales de producción, desarrollo y tecnología.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo">🤝 Abordaje Pedagógico 🤝</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>En el Huergo, entendemos que el aprendizaje se construye desde la diversidad. Nuestro abordaje pedagógico busca integrar estudiantes de diferentes contextos, ofreciendo un espacio donde todos se sientan parte. Fomentamos el acompañamiento cercano, el trabajo en equipo, y la confianza como pilares fundamentales para que cada estudiante pueda desarrollarse a su ritmo.</p></td>
+          <td><img src="imagenes\AbordajePedagogico.png" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      <h2 class="titulo">🧾 Régimen Preuniversitario 🧾</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\RegimenPreuniversitario.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>A partir del quinto año, el colegio adopta una modalidad preuniversitaria. Se incorporan los programas TPS (Trabajo Práctico Supervisado) y parciales, se evalúa por materia, y se implementan normas como la obligatoriedad del uso de uniforme completo. Esta estructura permite a los estudiantes familiarizarse con la organización académica universitaria</p></td>
+        </tr>
+      </table> 
+
+    <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>
+  <?php include 'footer.php'; ?>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instituto Huergo</title>    
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <?php include 'header.php'; ?>
+    <h1>Seguridad</h1>
+        <h2 class="titulo">🔧 Seguridad en talleres 🔧</h2>
+        <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Los talleres cuentan con estrictas normas de seguridad que garantizan un entorno controlado para el aprendizaje práctico. Se utilizan elementos de protección personal, herramientas certificadas y supervisión constante por parte de docentes capacitados.</p></td>
+          <td><img src="imagenes\seguridadEnTalleres.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table> 
+      <h2 class="titulo" >🚨 Sistemas de evacuación 🚨</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\sistemaDeEvacuacion.jpg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>El colegio dispone de un plan de evacuación activo, con salidas de emergencia señalizadas, simulacros periódicos y personal instruido para actuar ante cualquier contingencia.</p></td>
+        </tr>
+      </table> 
+      <h2 class="titulo" >🛂 Sistema de entrada y salida 🛂</h2>
+      <table class="contenido">
+        <tr>
+          <td style="padding-right: 120px; width:50%; font-size: 22px;"><p>Para reforzar el control y la seguridad, los estudiantes de 5° y 6° año y todo el cuerpo docente utilizan un sistema de ingreso mediante chip personal, que permite registrar entradas y salidas de manera segura y automatizada.</p></td>
+          <td><img src="imagenes\sistemaEntradaYSalida.jpg" style="width: 100%;"/></td>
+        </tr>
+      </table>
+      <h2 class="titulo" >🏥 Salud 🏥</h2>
+      <table class="contenido">
+        <tr>
+          <td><img src="imagenes\Salud.jpeg" style="width: 100%;"/></td>
+          <td style="padding-left: 120px; width:50%; font-size: 22px;"><p>El edificio cuenta con sistemas de ventilación adecuados como aires acondicionados, ventiladores y estufas según la temporada. Además, se dispone de un sistema de control de temperatura en la entrada para monitorear el estado de salud de toda la comunidad educativa.</p></td>
+        </tr>
+      </table> 
+      <a href="#" class="scroll-top">Subir al inicio</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".scroll-top");
+      if (btn) {
+        btn.classList.toggle("show", window.scrollY > 300);
+      }
+    });
+  </script>
+  <?php include 'footer.php'; ?>
+</body>
+</html>
